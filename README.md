@@ -3,9 +3,9 @@
 **Disciplina:** Soluções em Energias Renováveis e Sustentáveis (SERS)
 **Turma:** 1CCPA - Ciência da Computação
 **Grupo:**
-* Fernando Costa e Silva (RM: xxxxx)
-* Henrique Shimada Pimenta (RM: xxxxx)
-* Waldir Arthur Holanda de Souza (RM: xxxxx)
+* Fernando Costa e Silva (RM: 574637)
+* Henrique Shimada Pimenta (RM: 570721)
+* Maria Eduarda Farias Lira (RM: 575504)
 
 > **Nota:** Esta é a contribuição específica da disciplina de SERS para o projeto integrador.
 
