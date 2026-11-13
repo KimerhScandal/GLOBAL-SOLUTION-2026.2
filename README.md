@@ -17,15 +17,15 @@
 ## 2. Dados Utilizados e Fontes
 * **Tarifa de Energia:** R$ 0,85/kWh (Média Grupo B).
 * **Consumo Atual:** 1.052,4 kWh/mês (Baseado em potências médias do Inmetro para lâmpadas antigas e freezers comerciais).
-* **Geração de Biogás:** 90 kg/dia de resíduos geram aprox. 270 m³/mês de gás, produzindo 405,0 kWh/mês.
+* **Geração de Biogás:** 90 kg/dia de resíduos geram aprox. 270 m³/mês de gás. Aplicando um fator de eficiência real de 60% (considerando perdas térmicas, umidade dos resíduos e rendimento mecânico do motor), a produção líquida é de 243,0 kWh/mês.
 
 ## 3. Estimativas de Consumo e Cálculos
 Utilizamos a fórmula `E = (P * t) / 1000`:
 * **Cenário Atual:** 1.052,4 kWh/mês (Custo: R$ 894,54).
 * **Cenário Otimizado (LED + IoT):** 466,7 kWh/mês.
-* **Energia Renovável Gerada (Biogás):** 405,0 kWh/mês.
-* **Consumo Residual da Rede:** 61,7 kWh/mês (Custo: R$ 52,45).
-* **Economia Total:** R$ 747,09/mês.
+* **Energia Renovável Gerada (Biogás):** 243,0 kWh/mês.
+* **Consumo Residual da Rede:** 223,7 kWh/mês (Custo: R$ 190,15).
+* **Economia Total:** R$ 704,39/mês.
 
 ## 4. Comparação de Alternativas
 Comparamos duas fontes para suprir a demanda otimizada (466,7 kWh/mês):
@@ -41,9 +41,9 @@ O fluxo de energia e dados funciona da seguinte forma:
 [ DASHBOARD ] <- [ PROCESSAMENTO PYTHON/ESP32 ] <- [ SENSORES IOT (PRESENÇA/CORRENTE) ]
 
 ## 6. Indicadores Energéticos e Ambientais
-1. **Consumo líquido da rede:** 61,7 kWh/mês
-2. **Economia energética estimada:** 94,1% (Economia de R$ 747,09/mês)
-3. **Participação de energia renovável:** 86,7% da demanda
+1. **Consumo líquido da rede:** 223,7 kWh/mês
+2. **Economia energética estimada:** 78,7% (Economia de R$ 704,39/mês)
+3. **Participação de energia renovável:** 52% da demanda
 4. **Resíduos orgânicos tratados:** 2.700 kg/mês
 
 ## 7. Referências e Limitações
