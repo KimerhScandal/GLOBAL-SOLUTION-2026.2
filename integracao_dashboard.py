@@ -5,12 +5,12 @@ dados_energia_comunidade = {
     "local": "Centro Comunitário de São Bernardo do Campo",
     "indicadores_mensais": {
         "consumo_baseline_kwh": 1052.4,
-        "consumo_atual_rede_kwh": 61.7,
-        "geracao_biogas_kwh": 405.0,
-        "participacao_renovavel_pct": 86.7
+        "consumo_atual_rede_kwh": 223.7, 
+        "geracao_biogas_kwh": 243.0,
+        "participacao_renovavel_pct": 52.0
     },
     "impacto_financeiro": {
-        "economia_reais": 747.09
+        "economia_reais": 704.39
     },
     "impacto_ambiental": {
         "lixo_organico_tratado_kg": 2700,
